@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from engine.sternman_engine import SternmanEngine
+from Engine_folder.sternman_engine import SternmanEngine
 
 
 class Palindrome(SternmanEngine):
