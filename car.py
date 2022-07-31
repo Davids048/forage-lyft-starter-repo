@@ -6,3 +6,6 @@ class Car(Servicable):
         self.engine = Engine
         self.battery = Battery
 
+    def need_service(self):
+        return self.engine.need_service() or self.battery.need_service()
+
